@@ -1,0 +1,29 @@
+.centerize {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap5px {
+  gap: 5px;
+}
+
+button {
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  font-size: large;
+  background: rgb(20, 18, 18);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container {
+  position: relative;
+}
+
+button.remover {
+  position: absolute;
+}
